@@ -1,0 +1,92 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.main-header-content {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-title {
+  flex-grow: 1;
+  font-size: x-large;
+  text-align: left;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.buttons {
+  align-self: center;
+}
+.login {
+  background-color: blue;
+  border: none;
+  margin-right: 40px;
+  box-sizing: content-box;
+  outline: none;
+  color: white;
+  font-size: medium;
+  :hover {
+    cursor: pointer;
+    border: none;
+    font-size: large;
+  }
+}
+
+.start-your-free-trial {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.start-your-free-trial:hover {
+  cursor: pointer;
+}
+
+.second-header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.second-header-title {
+  text-align: left;
+  font-size: large;
+}
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 800px) {
+  .login {
+    margin-right: 20px;
+    font-size: xx-small;
+  }
+  .start-your-free-trial {
+    font-size: xx-small;
+    padding: 5px;
+  }
+  .header-title {
+    font-size: medium;
+  }
+  .second-header-title {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 400px) {
+  .login {
+    font-size: xx-small;
+    margin-right: 0px;
+  }
+  .start-your-free-trial {
+    font-size: xx-small;
+    padding: 2px;
+  }
+  .header-title {
+    font-size: x-small;
+  }
+  .second-header-title {
+    font-size: xx-small;
+  }
+}

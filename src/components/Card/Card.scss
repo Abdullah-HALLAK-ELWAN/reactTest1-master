@@ -1,0 +1,21 @@
+.card {
+  width: 170px;
+  :hover {
+    cursor: pointer;
+  }
+}
+.card-button {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.card-image-container {
+  background-color: black;
+}
+.card-image {
+  width: 170px;
+  height: 255px;
+}
+.card-title-container {
+  text-align: left;
+}

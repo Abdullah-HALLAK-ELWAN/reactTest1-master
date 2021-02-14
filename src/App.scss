@@ -1,0 +1,28 @@
+.app {
+  height: 100vh;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-app {
+  width: 100%;
+  margin-top: 150px;
+  align-self: flex-start;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-compenent {
+  justify-self: flex-end;
+}
+.margin-div-left {
+  margin-left: 10%;
+}
+.margin-div-right {
+  margin-right: 10%;
+}
